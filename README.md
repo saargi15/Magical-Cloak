@@ -2,6 +2,8 @@
 
 A fun Computer Vision project inspired by the famous "Invisibility Cloak" concept from Harry Potter. This project uses OpenCV and Python to make a colored cloak appear invisible in real-time using image processing techniques.
 
+🔗 Demo Video: https://www.linkedin.com/posts/saargi_invisiblecloak-activity-7404938073152749573-_m6-?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADhKvHQBMCNBRqX4z1QK92X-qZVgzCMzGYg
+
 ## 📌 Project Overview
 
 The Magical Cloak project creates the illusion of invisibility by detecting a specific cloak color and replacing it with the previously captured background frame.
@@ -27,11 +29,9 @@ When a person wears the selected colored cloth, the cloak area is replaced with 
 ```
 Magical-Cloak/
 │
-├── magical_cloak.py
-├── requirements.txt
 ├── README.md
-└── assets/
-    └── demo.gif
+├── background.py
+└── invisible_cloak.py
 ```
 
 ## ⚙️ Installation
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 Run the Python file:
 
 ```bash
-python magical_cloak.py
+python invisible_cloak.py
 ```
 
 ### Steps:
@@ -78,14 +78,6 @@ python magical_cloak.py
 4. A mask is created for the cloak region.
 5. The detected cloak area is replaced with the stored background.
 6. The final output creates the illusion of invisibility.
-
-## 📸 Demo
-
-Add your screenshots or GIF here:
-
-```markdown
-![Demo](assets/demo.gif)
-```
 
 ## 🎯 Learning Outcomes
 
